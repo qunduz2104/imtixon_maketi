@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetupe");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetupe");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Philosopher-bold";
+  src: url("../fonts/Philosopher-bold.ttf") format("truetupe");
+  font-weight: 700;
+  font-style: normal;
+}
+.container {
+  width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header-nav {
+  display: flex;
+  gap: 35px;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  z-index: 1;
+}
+.header-list-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #150c01;
+  opacity: 0.6;
+}
+.header-list-link:hover {
+  color: blueviolet;
+}
+.header-list-home {
+  color: #dc780b;
+}
+.button {
+  width: 155px;
+  height: 46px;
+  padding: 13px 30px 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #dc780b;
+  border-radius: 5px;
+  border: #dc780b;
+  z-index: 1;
+}
+.button:hover {
+  background-color: blue;
+  color: blueviolet;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 160px;
+}
+.hero-list {
+  width: 555px;
+  z-index: 1;
+}
+.hero-list-title {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48.83px;
+  line-height: 58px;
+  color: #150c01;
+}
+.hero-list-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150c01;
+  opacity: 0.7;
+  margin-top: 41px;
+}
+.hero-list-buttton {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 49px;
+}
+.btn {
+  background-color: #ffffff;
+  color: #dc780b;
+  border: 1.5px solid darkgrey;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: royalblue;
+  color: blueviolet;
+}
+.hero-img {
+  position: absolute;
+  top: 30px;
+  left: 600px;
+}
+.main {
+  margin-top: 120px;
+}
+.features {
+  display: inline;
+  text-align: center;
+}
+.features-plan {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #dc780b;
+  opacity: 0.7;
+}
+.features-title {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 35px;
+  text-transform: capitalize;
+  color: #150c01;
+  margin-top: 7px;
+}
+.features-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 90px;
+}
+.card {
+  width: 33%;
+  align-items: center;
+}
+.card-title {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  color: #150c01;
+  margin-top: 33px;
+}
+.card-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #150c01;
+  opacity: 0.6;
+  margin-top: 15px;
+}
+.about-us {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.about-us_img {
+  position: relative;
+  left: -100px;
+  top: -60;
+}
+.about-us_img:hover {
+  border: 2px solid #150c01;
+  border-radius: 2px solid #150c01;
+}
+.about-img {
+  position: absolute;
+  z-index: 1;
+}
+.about-list {
+  width: 488px;
+  margin-left: 97px;
+}
+.about-us_plan {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.about-us_title {
+  width: 487px;
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 41px;
+  color: #150c01;
+  margin-top: 10px;
+}
+.about-us_desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150c01;
+  opacity: 0.7;
+  margin-top: 30px;
+  margin-bottom: 29px;
+}
+.menu {
+  display: flex;
+  display: inline;
+  justify-content: space-around;
+  text-align: center;
+}
+.menu-desc {
+  width: 748px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #150c01;
+  opacity: 0.7;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30;
+  margin-top: 30px;
+}
+.menu-list_item {
+  width: 360px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 75px 10px 10px 10px;
+}
+.meny-list-text {
+  display: flexbox;
+  padding: 25px;
+}
+.menu-text {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-text-title {
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #150c01;
+}
+.menu-text-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150c01;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+.menu-text-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.but {
+  width: 36px;
+  height: 34px;
+  padding: 11px 12px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 61px;
+}
+.take_away {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  position: relative;
+  margin-top: 111px;
+  margin-bottom: 70px;
+  padding: 70px;
+}
+.take-away_buton-list {
+  display: flex;
+}
+.bat {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #ffffff;
+  padding: 11px 9px 11px 28px;
+}
+.bit {
+  display: flex;
+  align-items: center;
+  padding: 11px 9px 11px 28px;
+  color: #150c01;
+}
+.take_away-buuton-img {
+  margin-right: 8px;
+}
+.take_away-img {
+  position: absolute;
+  top: -75px;
+  bottom: 58px;
+  left: 878px;
+}
